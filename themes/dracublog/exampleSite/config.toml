@@ -1,0 +1,79 @@
+# example config.toml file
+# also used for the theme's documentation site
+# copy this to yoursite-dir/config.toml and modify as needed
+
+# Title of your site
+title = "Dracublog"
+
+# baseURL
+baseURL = "example.org"
+
+# Language code, defaults to en-US if not set
+languageCode = "en-ca"
+
+# theme - uncomment this (you can also have multiple values using ["", ""])
+theme = "dracublog"
+
+# Copyright statement, used in RSS feed and footer
+copyright = "Copyright © 2021, earnest ma"
+
+# Whether to enable GitInfo or not
+enableGitInfo = false
+
+# Taxonomies
+[taxonomies]
+	tag = "tags"
+	author = "authors"
+
+[params]
+	# path to favicon, should be /favicon.ico (place in static/)
+	favicon = "/favicon.ico"
+	# whether to show openring (recent posts from blogs I read...) or not
+	openring = false # true
+	# URL to git repository (for GitInfo and related)
+	# GitRepo = "https://git.earne.link/earnestma/dracublog"
+
+# Nice permalinks for blog posts
+[permalinks]
+  blog = "/:year/:month/:day-:slug"
+
+# Enable "unsafe" for raw HTML in markdown
+[markup.goldmark.renderer]
+	unsafe = true
+
+# Menu - header items show after blog, if it exists
+[[languages.en.menu.main]]
+	identifier = "about"
+	name = "About"
+	url = "/about"
+	weight = 100
+
+[[languages.en.menu.main]]
+	identifier = "work"
+	name = "Work"
+	url = "/work"
+	weight = 200
+
+# Footer links
+#[[languages.en.menu.footer]]
+#	identifier = "Home"
+#	name = "Home"
+#	url = "/"
+#	weight = 100
+
+#[mediaTypes]
+#[mediaTypes."text/gemini"]
+#suffixes = ["gmi"]
+
+#[outputFormats]
+#[outputFormats.Gemini]
+#name = "GEMTEXT"
+#isPlainText = true
+#isHTML = false
+#mediaType = "text/gemini"
+#protocol = "gemini://"
+#permalinkable = true
+#path = "gemini/"
+
+#[outputs]
+#section = ["HTML", "RSS"]

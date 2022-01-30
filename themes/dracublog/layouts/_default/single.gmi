@@ -1,0 +1,19 @@
+# {{ $.Title | safeHTML }}
+
+{{ trim (readFile (replace $.File.Path ".md" ".gmi")) "\n" | safeHTML }}
+
+```ASCII
+                .
+               ,O,
+              ,OOO,
+        'oooooOOOOOooooo'
+          `OOOOOOOOOOO`
+            `OOOOOOO`
+            OOOO'OOOO
+           OOO'   'OOO
+          O'         'O
+```
+
+=> / Return to the homepage
+
+{{ .Site.Copyright }}

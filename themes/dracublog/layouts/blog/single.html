@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+<ul>
+<li>
+	Published on {{ .Date.Format "Jan 02, 2006" }}
+{{ if .Lastmod }}{{ if not (eq .Lastmod .Date )}}
+	<i>(<b>updated</b> {{ dateFormat "2006-01-02" .Lastmod.Local }})</i>
+{{ end }}{{ end }}
+
+{{ with .Page.Params.Authors }}
+{{ partial "taxonomy-authors.html" . -}}
+{{ end }}
+</li>
+
+{{ with .OutputFormats.Get "gemtext" }}
+<li>Read via <a href="{{replace .Permalink "/gemini" "" 1 | safeURL}}">Gemini</a></li>
+{{- end }}
+</ul>
+
+<content>
+	{{ .Content }}
+</content>
+
+<p>
+	<b>Tags:</b>
+	{{ range (.GetTerms "tags") }}
+	<a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+	{{ end }}
+</p>
+
+{{ partial "fedi-comments" . }}
+
+{{ if $.Site.Params.openring }}
+{{ partial "openring-out" . -}}
+{{ end }}
+
+<a href="#"><button class="top">Back to top</button></a>
+
+{{ end }}
