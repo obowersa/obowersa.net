@@ -1,5 +1,5 @@
 languageCode = 'en-us'
-title = 'obowersa.net'
+title = 'Owen's Blog'
 theme = 'PaperMod'
 [minify]
 disableXML = true
@@ -7,8 +7,8 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "obowersa.net"
-description = "Sample site for my new website"
+title = "Owen's Blog"
+description = "Ramblings about tech, leadership and all things open source"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "Me"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
@@ -41,7 +41,7 @@ iconHeight = 35
 
 [params.profileMode]
 enabled = true
-title = "obowersa.net"
+title = "Owen's Blog"
 subtitle = "Ramblings about tech, leadership and all things open source"
 imageUrl = "/owen.png"
 imageWidth = 320
