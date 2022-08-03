@@ -33,3 +33,9 @@ HUGO_ENABLEGITINFO = "true"
 from = "/npmjs/*"
 to = "/npmjs/"
 status = 200
+
+[[redirects]]
+  from = "https://obowersa.net/notes/*"
+  to = "https://publish.obsidian.md/serve?url=obowersa.net/notes/:splat"
+  status = 200
+  force = true
