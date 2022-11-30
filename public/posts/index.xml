@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on obowersa.net</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on obowersa.net</description>
+    <title>Posts on Owen&#39;s Blog</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Owen&#39;s Blog</description>
     <image>
-      <url>http://example.org/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://example.org/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jan 2022 21:01:01 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jan 2022 21:01:01 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lorem Ipsum</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>/posts/my-first-post/</link>
       <pubDate>Sun, 23 Jan 2022 21:01:01 +0000</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
+      <guid>/posts/my-first-post/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rutrum a risus sed imperdiet. Quisque pellentesque consequat massa, vitae eleifend massa dictum id. Vivamus sem nulla, pharetra sit amet condimentum sit amet, eleifend eu lacus. Quisque hendrerit ante sed massa luctus, sit amet congue lorem dapibus. Aenean tellus lorem, vulputate in lorem sit amet, lobortis hendrerit eros. Suspendisse vestibulum mollis felis non egestas. Proin lobortis facilisis felis, eget porta tortor sagittis quis.</description>
     </item>
     
