@@ -1,33 +1,35 @@
 ---
-title: "How open source has impacted my life"
-date: 2022-11-30T21:41:13+01:00
-draft: true
+title: "The power of open source: A personal story"
+date: 2023-02-18T02:00:00+01:00
 ---
 
+Open source is such an incredible thing. Whenever I try to explain it to someone who isn't part of the tech world the questions which get asked always remind me of just how wonderfully weird it is as a concept.  In this modern world, people and companies collaborating on things which have no cost, no direct value to the bottom line, and quite often (depending on licensing) in such a way which enables direct competitors to take that work and build upon it.
 
-Open source has long been something incredibly important to me. Being able to contribute to open source projects or be part of various communities is one of my hard lines which I make sure companies are comfortable with when joining ( and that they are willing to back that up by marking it part of any employment contract). 
+That's not to say folk should be naive about the complexities and motivations involved, but I really want to take a moment to call out how significant an achievement the open source movement is. 
 
-Part of the importance to me is just that I genuinely and whole heartedly believe in giving back to the world and in the good that open source can do. Another, and arguably larger part, is my own personal experience of how much of an impact open source communities and projects can have on someones life.
+Which brings me onto this post, notably, the first post of my blog after years of telling myself that any day now I'd start writing again. I want to start of this blog with a bit about me, my own experiences,  how I came to be working in tech and how much of an impact open source has had on my life. 
 
-That's not to say it's all sunshine and roses. There's definitely unique challenges around the wider open source world ( and some not so unique ones which are just endemic of any group of people), but I can confidently say that I wouldn't be the person I am today if it wasn't for my own experience of open source. 
+My journey in tech has been a little a-typical. I'm a secondary school drop out, leaving with no formal qualifications and never attended university. I came from an incredibly poor family, an abusive household and an area of the UK where prospects were pretty much non-existent. 
 
-I grew up poor, desperately so, and in an incredibly abusive household. My prospects in life were not exactly rosey. Yet I had some luck in the form of a handful of people. One being my grandfather who saw technology as the future and during the few years I had with him before he died, invested a lot of effort into picking up second hand computers and letting me 'play'.
+It's fair to say that there's a decent chance I probably wouldn't be here today if it hadn't been for the wider open source community, the tools which are out there and a few key people throughout the years. 
 
-The other big influence was one paticular teacher at the school I was at. He got hold of an old machine which was going to be thrown away and spent time over a handful of evenings getting me to setup linux on it. That little machine became a bit of escape from reality and an opertunity for me to begin to explore this strange world outside of my imediate trauma.
+My early introduction to tech and the power of computing was due to two incredibly important people. My grandfather who I had the opportunity to spend 2 wonderful years living with as a child was a huge believer in the future needing a technical basis. He went out of his way to get hold of various magazines and devices for the pair of us to explore together. It's such a powerful thing having some of my happiest memories being grounded in this joy of exploration with someone who meant the world to me.
 
-I was hooked.
+The second person was, oddly enough, a maths teacher. Looking back I think he was likely aware that my home situation was less than ideal. At the time though he noticed my fascination with computers and got hold of an old machine due to be thrown out which was running linux. He went out of his way to make sure I'd get time outside of the main school hours to use the machine, get to grips with the fundamentals and, most importantly, to 'play'.
 
-Those early days lead to me begining to push the boundaries of what I had access to, which eventually lead to me discovering IRC and a whole community of people out there. Chatzilla was my first gateway into that space ( and I have such incredibly fond memories of all the folk involved with mozilla as a whole ). For a kid who was in and out of school between my home situation and health issues at the time, I suddenly found a space where I didn't feel alone. 
+That computer became my sanctuary within the larger chaos of my world. A place free from the abuse and trauma at home, somewhere I could keep my private thoughts and build my private worlds. It unlocked the doors for me on programming and the joy which can be found by just tinkering. It also gave me a semblance of control, an area where any mistakes which occurred were genuine and I was capable of correcting.
 
-That experience, and the ability to dig into the linux kernel and hack on various projects is what set me up for a career I wouldn't have been able to persue otherwise.  My health issues got worse and culminated in my family moving countires while I was still in hospital, I ended up leaving school without any secondary education qualifications too many and at a loss on  what to do.
+Fast forward a few years and one of my earliest jobs came as a direct result of that tinkering. I'd just got out of hospital after a pretty critical illness. I managed to land myself a position as a junior sys-admin for a local ISP working on their linux builds. 
 
-For a while I resisted against trying for a job in technology, but, eventually I relented. I had some contacts through my time hanging out in IRC and through a series of fortunate events, managed to land my first job. 18 years on and I'm still in this industry and constantly learning.
+At the same time I started to hang out in various open source communities ( the mozilla IRC in particular was a frequent haunt for years, to this day I think they had one of the most incredible communities ). Outside of being a place to learn and contribute, I made friends through these groups who ended up being critical life lines during some incredibly dark times. 
 
-Beyond those early days open source has given me so much. I've made close friends who I hope I'll have for the rest of my life. I found love ( and then promptly fucked it up, but open source can't take the blame for that ). I've had the opertunity to mentor people, to talk at conferences and to really feel a sense of 'belonging'. 
+The power of open source for me then and now was immense. The ability to learn through asking questions, taking apart code and seeing how people who I genuinely admired approached problems gave me an education I would have completely missed otherwise. The communities themselves gave me a sense of family and belonging.
 
-It hasn't always been smooth sailing, but the good has by far outweighed the bad. 
+In the years since then, that power for me has only grown stronger. I ended up joining the CD Foundation ambassador program for a time as a result of one of those people who I looked up to on IRC presenting about it at a convention celebrating various open source tools. I made friends and found love (and then promptly messed it up, but that was a me thing not an open source thing ) through the communities I joined. I've also been able to mentor people who were in similar positions that I found myself in years before.
 
-There's a line I've heard a few times about how open source is a family. Well, as someone who doesn't have a blood family who I have any contact with, it's an idea which really resonates with me. 
+If I look at the technology stack for this blog. I'm writing it on an open source operating system, using an open source editor, with an open source version control solution which makes use of an open source static site generator and I'm then reviewing it in an open source browser.
 
-So here's to my open source family and the impact it's had on my life. I'm not entirely convinced I'd still be here without you all.
+From a cultural level I think it's impossible to overestimate just how much open source has changed the current state of the world. On a personal level though, it made me who I am and helped me survive and achieve things I'd of been incapable of doing otherwise.
+
+So yeah. That's my personal journey with open source and the power it has to me. I can't wait to start giving back more to the wider community in small ways such as this blog going forward.
 
