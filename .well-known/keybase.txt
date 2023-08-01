@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/obowersa
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://obowersa.net
+  * I am obowersa (https://keybase.io/obowersa) on keybase.
+  * I have a public key with fingerprint 1687 2211 15AE 770B 8734  BE6B F3F5 2930 969E 80ED
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120032a4f1d421ae72659fc2d3a92ed91c7a14f0107f425155fb1ceb420df4524410a",
+      "fingerprint": "1687221115ae770b8734be6bf3f52930969e80ed",
+      "host": "keybase.io",
+      "key_id": "f3f52930969e80ed",
+      "kid": "01013d68552d8b848a727893422996a05d96ea2783d4a5793e5ba915776f7f7204390a",
+      "uid": "dda073ae0b9315e6cc5c525e14d07719",
+      "username": "obowersa"
+    },
+    "service": {
+      "hostname": "obowersa.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1690905094,
+  "expire_in": 157680000,
+  "prev": "55634c68093c6703d11596f5380bde979caa06f41d1ed761c62ce0466f896a05",
+  "seqno": 30,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNtAnicbVJ9TJVVHL4guACRr1k2VNYLJCDIOe/3uYAIS5SIFJEElOD9OC+8Qve9
+3Hv5CnBiaQ11S7J2yYUFW0OZI9Eh5hiKDERNJpMsYyU0bmagIJO6TqT3svyndf45
+O895nuc8v9/59fkuMXi7zT6JBJ837Ztyu37ZXmaQB6OWVhOiJlcRxmqiGC9uuETG
+Vlt+sSoTRgJAEgCKFGgFyjQJBcyRLIMUiZQpAZFYRlDiBEgrAAJOoUkGMowiQgmL
+NAlkhWZImoZAIKIJRTUVYovZoppsui1keY4kIYSM7sgBkecoWsSsqFAKQyIKIBZh
+HmBZFxZpVpdCDycKVrxe1XRMP+Qvxvsf/ovcAFIyyzMMKfMiT/MCR3I8omiSRIgV
+ACMjFgs6RMm0wHCIwowoIMhwHKtwCkcCmkKLucsW7WRZABwlYCAiCjKYlSRGYkgG
+Q1oGHAeRi2jFFpPwHtbZmqhVYItVIGqjCR0tVyXsaqyrkv8w1puwTdeaLZpNk7QS
+/abIZjNbjS6lrcrsolZgMf9fk3xRNcl6H3VFua5WNRNhhDpTsqkuV8gigAADEB1N
+4EqzasH5qovBcCwP9OV6B5frlgzDUrSkg4iSWA5Qsv4PiFUYigeijBGHJEEArEJD
+GWKZY6HEkhIGNMsq/GLvCFdZpSaNMFK6qU0o1D2taqFJsJVZMFHbe3m3h8HN27DU
+0901YAZvL/8XY3fV028+5GFTb3X4k6mJfvvO97WcLX4L1IWs1V7qGwePzC2rGm5Y
+PVfQtefOA8OuoOQ2+3xQ2JVb076sg/PKGsg7tADt9YEnT5zihVRDxZlHNa+u87jH
+nZoxt4L60p+P1sdumMwAL9tzN6fceDv9o7NeGtud/fzX1Jce/hHV9Fp3T1r4io7m
+Ky3T7oM1YYn7Y5f7t0cM3n/dJ3xNV5sjYGQk4+vO6ZSGhPSM4ccN9XfcV3lAJSXo
+5vFPLjUmRTcmomx78/PDfT5jH5/csdDqeyCkVTgTWGB3X9kvT972Gi+uTW5E/v4H
+u585xTqfymVu56y5my7ufmV6tPLuIdZ/9NJw2ubMXHS+csYzN/KnE+lXtaE1H1xr
+aUsamAiuq8X7N8SsrQt1BPhdHw0+e0796/RM/MrDESt+nPGuu7CV3Rax9dp3d9+9
+GfPWxrwt+5wXQ8d+M449Gi8VtsVl2xK+SjO/OR16bCph3fbw9PRGZ6EWUn/E2Vnh
+meO2I2nA59hQZXtActEXbOra5c39VSPvMIVNLVHj4UPBHp3b5/m8DvL37332RvW2
+RRVXwr0VXb/E9p0mJ5YMjMR/Nrnqxt+lQQVtbXFP7TWz39y6F73x8adPI2PiHaVR
+HYGh7SU7TcfLvYPdEj9Et+PSdlGTe/50ZPo5gnMeZN2fC6sP7XEuTDZk5nzbMzj7
+7IfzJcajzk29X/4D+WG3tQ==
+=+suq
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/obowersa
+
+==================================================================
+
