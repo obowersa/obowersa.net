@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ProjectFiltered from '../components/ProjectFiltered.astro';
+import dayjs from "dayjs";
+import localizedFormat from "dayjs/plugin/localizedFormat";
+
+const {page, title="Projects"} = Astro.props;
+dayjs.extend(localizedFormat);
+const lastUpdated =  await async function(){
+    if (page.data.length !== 0) {
+        return dayjs(page.data[0].data.pubDate).format("ll");
+    }
+}();
+
+---
+<BaseLayout title="Projects" sideBarActiveItemID="projects">
+    <div class="mb-5">
+      <div class="text-3xl w-full font-bold">{title}</div>
+      <div class="text-3xs w-full pt-4">Last Updated: {lastUpdated}</div>
+    </div>
+    <ProjectFiltered page={page}/>
+
+</BaseLayout>

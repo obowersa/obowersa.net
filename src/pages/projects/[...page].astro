@@ -1,0 +1,44 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import ProjectSummary from "@layouts/ProjectSummaryLayout.astro";
+import { getCollection } from "astro:content";
+
+
+export async function getStaticPaths({ paginate }) {
+  const posts = await getCollection("project");
+  posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  return paginate(posts);
+}
+
+//TODO: I feel like there's a better way of doing this 
+const nowPosts = await getCollection("project", ({data}) => {
+  
+  return data.status == 'now'
+});
+const ideaPosts = await getCollection("project", ({data}) => {
+  
+  return data.status == 'idea'
+});
+const donePosts = await getCollection("project", ({data}) => {
+  
+  return data.status == 'done'
+});
+
+const now = {'data':nowPosts.slice(0,3) }
+const idea = {'data':ideaPosts.slice(0,3) }
+const done = {'data':donePosts.slice(0,3) }
+
+---
+
+<BaseLayout title="Projects" sideBarActiveItemID="projects">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Projects</div>
+  </div>
+  <text class="prose">
+  <p>I'm constantly juggling several projects, with an ever-expanding list of "That would be cool" ideas.
+  <p>Below, you'll find the most recently updated projects. For a comprehensive overview, feel free to click through and explore the full list!</p>
+  </text>
+  <ProjectSummary header="Now" ref="now" posts={now} />
+  <ProjectSummary header="Ideas" ref="ideas" posts={idea} />
+  <ProjectSummary header="Done" ref="done" posts={done} />
+</BaseLayout>

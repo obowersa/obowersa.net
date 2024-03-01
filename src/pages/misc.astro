@@ -1,0 +1,60 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Miscellaneous" sideBarActiveItemID="misc">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Miscellaneous</div>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Recent(ish) Talks</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="EBPF tooling in kubernetes"
+      subtitle="October 2022"
+    >
+    <a class="link" href="https://youtu.be/tuxHZQu9wJw?t=3987" target="_blank">Link to talk</a>
+    </TimeLineElement>
+
+    <TimeLineElement
+    title="New Relic Future Stack: Fireside Talk"
+    subtitle="November 2022"
+  >
+  No link to this one, but, a really great chat about our use of New Relic, the importance of APM and observability and how we use it to empower the team
+  </TimeLineElement>
+
+    <TimeLineElement
+      title="CD Foundation End User Leadership Forum - Tools and Technology Choices"
+      subtitle="September 2021"
+    >
+    <a class="link" href="https://youtu.be/Nde0eNaiXoM?list=PL2KXbZ9-EY9Sugy8RH-QMYwXdIoxmM8YY" target="_blank">Link to talk</a>
+    </TimeLineElement>
+
+
+
+  </div>
+
+  <civ 
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Other things I'm proud of</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2 pt-2">
+    <li>
+      <a class="link" href="https://cd.foundation/blog/2021/06/25/continuous-delivery-foundation-announces-2021-cdf-community-awards-winners/"> CD Foundation - Ortelius - Most valued Contributor (2021) </a>
+    </li>
+    <li>
+      <a class="link" href="https://www.youtube.com/watch?v=8zCy_yfB4Q0" target="_blank"> How IGS uses New Relic</a>
+      <li>
+        <a class="link" href="https://cd.foundation/ambassador-alumni/" target="_blank"> CD Foundation Ambassador (alumni)</a>
+    </li>
+    <li>
+      General mentoring I've been doing for a few years. It's awesome to see folk grow and develop.
+    </li>
+  </ul>
+
+</BaseLayout>

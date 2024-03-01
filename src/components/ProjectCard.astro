@@ -1,0 +1,32 @@
+---
+import HorizontalCard from "../components/HorizontalCard.astro";
+import createSlug from "../lib/createSlug"
+
+const { page } = Astro.props;
+---
+
+{
+    page.data.length === 0 ? (
+        <div class="bg-base-200 border-l-4 border-secondary w-full p-4 min-w-full">
+        <p class="font-bold">Sorry!</p>
+        <p> I have no projects on the go at the moment :( </p>
+        </div>
+    ) : (
+        <ul>
+        {page.data.map((post) => (
+            <>
+            <HorizontalCard
+                title={post.data.title}
+                img={post.data.heroImage}
+                desc={post.data.description}
+                url={"/projects/" + createSlug(post.data.title, post.slug)}
+                target="_self"
+                badge={post.data.badge}
+                tags={post.data.tags}
+            />
+            <div class="divider my-0" />
+            </>
+        ))}
+        </ul>
+    )
+}

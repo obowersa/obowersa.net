@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+import { getCollection } from "astro:content";
+import createSlug from "../lib/createSlug"
+
+const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const last_posts = posts.slice(0, 3);
+---
+
+<BaseLayout sideBarActiveItemID="home">
+  <div class="pb-12 mt-5">
+    <div class="text-5xl font-bold pb-2">Owen Bower Adams</div>
+    <div class="text-2xl py-3 font-bold text-primary">Half way between an ok programmer and an average manager</div>
+    <div class="py-2">
+      <text class="prose">
+        <p>Welcome to my corner of the internet, a place where I'm hoping to talk about technology, tech leadership and my own journey through the tech industry.
+          I'm currently heading up a platform engineering team at an innovative vertical farming company in Scotland, tinkering in a few open-source projects, and 
+          for a time volunteered as a roller derby referee (I don't see that coming up much to be fair).</p>
+
+        <p>A few folk I've been talking to have asked me about the goal for my website and 'who the audience is'. 
+          To be honest the main audience is me and I'm hoping some others might occasionally find it interesting. I'll be mainly talking about the technology around CI, CD,
+          the impact of the cloud and kubernetes on how developers can approach problems as well as discussion around leadership in tech and the challenges there.
+      </p>
+
+        
+        <p>I'm also hoping to use this as a personal diary of sorts, capturing my experiences, ongoing projects
+          and the occasional <s>horror story</s> wisdom gained along the way. 
+        </p>
+        
+        <p>Have a look at my <a class="link" href="/blog/">blog posts</a> for a deeper dive into my opinions on tech, leadership and the occasional shower thought.
+          Check out my <a class="link" href="/projects/"> projects</a> to see what I've been up to lately, from my professional work to random ideas I don't want to lose.
+          I've also got a <a class="link" href="https://obowersa.net/notes">notes</a> section, which is the public side of my obsidian knowledge vault and an attempt at learning in the open.
+          Finally there's the general <a class="link" href="/misc"> miscellaneous </a> section, which is where I'll link to any talks I've done.
+        </p>
+        
+        
+        <p>Thanks for stopping by and reach out through my social links if you ever want to chat!</p>
+    </div>
+    <div class="mt-8">
+      <!-- placeholder for links and buttons -->
+    </div>
+  </div>
+</BaseLayout>

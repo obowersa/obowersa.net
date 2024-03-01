@@ -1,0 +1,9 @@
+---
+import ProjectFiltered from "@components/ProjectFiltered.astro";
+const { posts, header, ref } = Astro.props;
+---
+
+<div class="text-3xl w-full font-bold mb-5 mt-10">
+    <a class="link" href={ref}>{header}</a>
+</div>
+<ProjectFiltered page={posts} paginate={false} />

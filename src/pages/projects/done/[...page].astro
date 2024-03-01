@@ -1,0 +1,16 @@
+---
+import { getCollection } from "astro:content";
+import ProjectFilteredLayout from "../../../layouts/ProjectFilteredLayout.astro";
+
+export async function getStaticPaths({ paginate }) {
+  const posts = await getCollection("project", ({data}) => {
+    return data.status === "done";
+  });
+  posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  return paginate(posts, { pageSize: 10 });
+}
+
+const { page } = Astro.props;
+---
+
+<ProjectFilteredLayout page={page} title="Done"/>
