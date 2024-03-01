@@ -7,10 +7,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://obowersa.net',
   integrations: [mdx(), sitemap(), tailwind()],
-  redirects: {
-    '/notes': {
-      status: 301,
-      destination: 'https://publish.obsidian.md/obowersa/Notes+Overview'
-    }
-  }
+
 });
