@@ -9,7 +9,7 @@ export default defineConfig({
   integrations: [mdx(), sitemap(), tailwind()],
   redirects: {
     '/notes': {
-      status: 302,
+      status: 301,
       destination: 'https://publish.obsidian.md/obowersa/Notes+Overview'
     }
   }
