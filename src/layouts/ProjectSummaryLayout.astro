@@ -4,6 +4,7 @@ const { posts, header, ref } = Astro.props;
 ---
 
 <div class="text-3xl w-full font-bold mb-5 mt-10">
-    <a class="link" href={ref}>{header}</a>
+    {header}
 </div>
 <ProjectFiltered page={posts} paginate={false} />
+<a class="link link-primary text-lg pt-2" href={ref}>More</a>
