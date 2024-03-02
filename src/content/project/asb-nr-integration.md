@@ -2,7 +2,7 @@
 title: "Azure Service Bus Distributed Tracing"
 description: "Figure out how to instrument azure service bus calls with distributed tracing information"
 status: "idea"
-pubDate: "Mar 01 2024"
+pubDate: "Mar 02 2024"
 heroImage: "/idea.webp"
 tags: ["c-sharp", "newrelic", "azure-service-bus"]
 ---

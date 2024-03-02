@@ -1,17 +1,64 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 .time-line-container > div:last-child .education__time > .education__line {
   display: none;
 }
 
-@layer base {
-  h1 {
-    @apply text-2xl;
+:root {
+  --callout-accent-note: oklch(var(--in));
+  --callout-accent-tip: oklch(var(--su));
+  --callout-accent-important: oklch(var(--s));
+  --callout-accent-warning: oklch(var(--wa));
+  --callout-accent-caution: oklch(var(--er));
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --callout-accent-note: oklch(var(--in));
+    --callout-accent-tip: oklch(var(--su));
+    --callout-accent-important: oklch(var(--s));
+    --callout-accent-warning: oklch(var(--wa));
+    --callout-accent-caution: oklch(var(--er));
   }
-  h2 {
-    @apply text-xl;
-  }
-  /* ... */
+}
+
+.callout {
+  --calloutAccent: var(--callout-accent, var(--callout-accent-note));
+  --calloutHeaderFontWeight: var(--callout-header-font-weight, 500);
+  border-left: 0.25em solid var(--calloutAccent);
+  padding: 0.5rem 1rem;
+  color: inherit;
+}
+
+.callout-indicator {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  margin-bottom: 16px;
+  color: var(--calloutAccent);
+}
+
+.callout-indicator > svg:first-of-type {
+  margin-right: 0.5rem;
+}
+
+.callout-content:first-child,
+.callout-content:only-child {
+  margin-block-start: 0;
+}
+
+.callout-content:last-child,
+.callout-content:only-child {
+  margin-block-end: 0;
+}
+
+.callout-commend {
+  --callout-accent: var(--callout-accent-tip);
+}
+.callout-warn {
+  --callout-accent: var(--callout-accent-warning);
+}
+.callout-deter {
+  --callout-accent: var(--callout-accent-caution);
+}
+.callout-assert {
+  --callout-accent: var(--callout-accent-important);
 }
