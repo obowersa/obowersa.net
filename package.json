@@ -27,7 +27,6 @@
     "@microflash/remark-callout-directives": "^4.1.0",
     "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
     "@tailwindcss/typography": "^0.5.10",
-    "rehype-obsidian-callout": "^2.0.0",
     "remark-directive": "^3.0.0"
   }
 }
