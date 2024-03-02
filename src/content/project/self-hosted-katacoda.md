@@ -1,10 +1,10 @@
 ---
-title: "Internal/Self hosted katacoda/killercoda"
-description: "An updated version of four keys which can be hosted in more locations"
+title: "Azure Service Bus Distributed Tracing"
+description: "Figure out how to instrument azure service bus calls with distributed tracing information"
 status: "idea"
-pubDate: "Mar 01 2024"
+pubDate: "Mar 02 2024"
 heroImage: "/idea.webp"
-tags: ["killercoda", "platform-engineering", "learning"]
+tags: ["c-sharp", "newrelic", "azure-service-bus"]
 ---
 
-Katacoda/killercoda are amazing tools for creating interactive learning environments. What I'd really like to see is a self hosted version with an easy to use way of creating training for internal teams. One of the big challenges I tend to see when trying to get adoption of tooling in development teams is providing suitable training in a way which isn't just an info-dump.
+One of the big gaps with distributed tracing tends to be with event based systems. While New Relic has great support for some event handlers, it's lacking with azure service bus. Azure service bus does have OTEL and app insights support, so it would be great to figure out how to get it working with New Relic.
