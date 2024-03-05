@@ -2,10 +2,10 @@
 title: "Placeholder"
 description: "Just a little placeholder while I'm working on some blog posts"
 pubDate: "Sep 12 2022"
-draft: truew
+draft: true
 heroImage: "/post_img.webp"
-category: "Demo badge"
-tags: ["placeholder"]
+category: "Passing Thoughts"
+tags: ["leadership", "individual contributor"]
 ---
 
 This is something I've been working on for longer than I'd hoped for. Mainly due to a mix of work time pressure and
