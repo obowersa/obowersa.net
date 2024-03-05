@@ -1,4 +1,5 @@
 import { z, defineCollection } from "astro:content";
+import { bool } from "sharp";
 const blogSchema = z.object({
     title: z.string(),
     description: z.string(),
@@ -6,6 +7,7 @@ const blogSchema = z.object({
     updatedDate: z.string().optional(),
     heroImage: z.string().optional(),
     category: z.string(),
+    draft: z.boolean(),
     tags: z.array(z.string()).refine(items => new Set(items).size === items.length, {
         message: 'tags must be unique',
     }).optional(),
