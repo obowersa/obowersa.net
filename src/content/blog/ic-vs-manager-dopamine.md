@@ -2,6 +2,7 @@
 title: "Placeholder"
 description: "Just a little placeholder while I'm working on some blog posts"
 pubDate: "Sep 12 2022"
+draft: truew
 heroImage: "/post_img.webp"
 category: "Demo badge"
 tags: ["placeholder"]
