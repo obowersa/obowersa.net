@@ -1,0 +1,52 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="TODO" sideBarActiveItemID="todo">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">TODO</div>
+  </div>
+
+
+  <div class="prose prose-lg max-w-[750px] prose-img:mx-auto">
+
+    Oh hey! You found my todo page. This page isn't linked to from any other parts of the site but it's where I'm noting various tweaks I want to make to my current setup.
+
+    I suspect it's of limited interest to anyone but me, but, as part of being in the open I wanted to at least publish it.
+
+  </div>
+
+  <div class="pt-12 overflow-x-auto">
+    <table class="table">
+      <!-- head -->
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Done</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <!-- row 1 -->
+        <tr>
+          <td>Implement category view for blogs</td>
+          <td><input type="checkbox" class="checkbox" disabled />
+        </tr>
+        <!-- row 2 -->
+        <tr>
+          <td>Enable tags to work across both blogs and projects</td>
+          <td><input type="checkbox" class="checkbox" disabled />
+        </tr>
+        <!-- row 3 -->
+        <tr>
+          <td>Look into pulling the todo list dynamically from github</td>
+          <td><input type="checkbox" class="checkbox" disabled />
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+
+</BaseLayout>
