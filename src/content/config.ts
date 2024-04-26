@@ -1,5 +1,4 @@
 import { z, defineCollection } from "astro:content";
-import { bool } from "sharp";
 const blogSchema = z.object({
     title: z.string(),
     description: z.string(),
