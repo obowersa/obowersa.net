@@ -36,7 +36,9 @@ This is what enables that snazzy little language breakdown. The challenge comes,
 
 So we know how the language identification works now and where it can trip up, but how do tools which query github get that information ? Generally they'll be building on top of the [list repository languages](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repository-languages) API endpoint.
 
-This returns an object with each identified language as a key, with a value showing the number of bytes of code written in that language. A lot of the time what folk care about when querying this API is the language with the most bytes. Which, in our example, is typescript. 
+This returns an object with each identified language as a key, with a value showing the number of bytes of code written in that language. A lot of the time what folk care about when querying this API is the language with the most bytes. 
+
+Which, in our example, is typescript. 
 
 Despite the fact that the code we care about definitely isn't
 
