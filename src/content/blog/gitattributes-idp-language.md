@@ -14,7 +14,7 @@ Lets take a scenario. You've been doing a great job of splitting out your dotnet
 
 ![An image showing githubs language breakdown with the wrong percentages](/gitattributes-idp-language-gh-spec.png)
 
-Annoying right? But no big deal. It's just a ui element you can quickly ignore and a natural result of having a whole bunch of typescript files managing your per service infra. You then log into your fancy [new developer portal](https://www.cortex.io/) and realize that this little UI niggle is stalking you.
+Annoying right? But no big deal. It's just a UI element you can quickly ignore and a natural result of having a whole bunch of typescript files managing your per service infra. You then log into your fancy [new developer portal](https://www.cortex.io/) and realize that this little UI niggle is stalking you.
 
 ![Cortex UI showing typescript as the language](/gitattributes-idp-language-cortex.png)
 
