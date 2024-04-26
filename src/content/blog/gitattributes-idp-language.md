@@ -8,7 +8,7 @@ category: "How To"
 tags: ["github", "cortex", "git"]
 ---
 
-# Whats the problem?
+## Whats the problem?
 
 Lets take a scenario. You've been doing a great job of splitting out your dotnet services into individual repositories. You've been adopting infrastructure as code and have even decided go down the route of the cloud developer kit, embracing the typescript goodness. Everything is sunshine and roses, yet whenever you look at github you see this.
 
@@ -23,16 +23,16 @@ Which also means all those fancy queries you wanted to run based on the language
 Suddenly the UI niggle has become a bit of a pain and something has to be done about it.
 
 
-# A bit of background
+## A bit of background
 
-## The Linguist
+### The Linguist
 Before diving into how to solve this, lets take a quick look at the background of what's happening. 
 
 Github uses the [linguist](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-repository-languages) library for both file language identification and syntax highlighting.
 
 This is what enables that snazzy little language breakdown. The challenge comes, naturally, from when you have a large amount of files in the repo which aren't related to the actually code you've been writing. This can most commonly be seen with vendored libraries in a repo, but also crops up in situations like we described above where there's a bunch of supporting code to help deploy what you've been working on.
 
-## The API
+### The API
 
 So we know how the language identification works now and where it can trip up, but how do tools which query github get that information ? Generally they'll be building on top of the [list repository languages](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repository-languages) API endpoint.
 
@@ -41,7 +41,7 @@ This returns an object with each identified language as a key, with a value show
 Despite the fact that the code we care about definitely isn't
 
 
-# How to solve it
+## How to solve it
 
 To see an example of this, you can [go here](https://github.com/obowersa/gitattributes-linguist-exception)
 
