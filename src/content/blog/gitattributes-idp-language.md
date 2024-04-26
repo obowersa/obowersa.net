@@ -38,7 +38,7 @@ So we know how the language identification works now and where it can trip up, b
 
 This returns an object with each identified language as a key, with a value showing the number of bytes of code written in that language. A lot of the time what folk care about when querying this API is the language with the most bytes. 
 
-Which, in our example, is typescript. 
+Which in our example, is typescript. 
 
 Despite the fact that the code we care about definitely isn't
 
@@ -55,7 +55,7 @@ There's a few options in the overrides depending on your use case. While ours is
 
 Ultimately regardless of what you use you will get the same result, excluding the directory, path, file, extension (or whatever other git pattern matching you use) from the linguist stats.
 
-For this example we'll go with vendored, which gives us a .gitattributes file along these lines:
+For this example we'll go with vendored which gives us a .gitattributes file along these lines:
 ```
 nonsense/** linguist-vendored
 ```
