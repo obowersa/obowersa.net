@@ -28,7 +28,7 @@ Suddenly the UI niggle has become a bit of a pain and something has to be done a
 ## The Linguist
 Before diving into how to solve this, lets take a quick look at the background of what's happening. 
 
-Github uses the [linguise](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-repository-languages) library for both file language identification and syntax highlighting.
+Github uses the [linguist](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-repository-languages) library for both file language identification and syntax highlighting.
 
 This is what enables that snazzy little language breakdown. The challenge comes, naturally, from when you have a large amount of files in the repo which aren't related to the actually code you've been writing. This can most commonly be seen with vendored libraries in a repo, but also crops up in situations like we described above where there's a bunch of supporting code to help deploy what you've been working on.
 
