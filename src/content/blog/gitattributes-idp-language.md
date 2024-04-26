@@ -60,6 +60,6 @@ nonsense/** linguist-vendored
 
 And that's it. Linguist will now ignore the nonsense folder. The Github API will respond as we'd want. We can make use of Cortex's Query Language to start doing weird and wonderful things based on identified language. Most importantly, at least for me, I get a little bit more calm whenever I see the github UI element reporting what I'd want it to report.
 
-# A final note on .gitattributes
+## A final note on .gitattributes
 
 As a final passing note which I might write more on in the future, it is worth taking a look at the .gitattributes file link earlier. There's a lot more power with it than just overriding linguist settings. It's one of those things you rarely need but can be super handy on occasion.
